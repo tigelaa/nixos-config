@@ -3,7 +3,7 @@
 {
   imports = [ ./hardware-configuration.nix ];
 
-  networking.hostName = "multilaser";
+  networking.hostName = "nix";
 
   boot.loader.grub = {
     enable = true;
