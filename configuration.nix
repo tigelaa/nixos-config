@@ -54,6 +54,11 @@
     pulse.enable = true;
   };
 
+  fonts = {
+    packages = [ pkgs.nerd-fonts.jetbrains-mono ];
+    fontconfig.defaultFonts.monospace = [ "JetBrainsMono Nerd Font" ];
+  };
+
   programs.firefox.enable = true;
 
   environment.systemPackages = with pkgs; [
