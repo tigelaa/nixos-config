@@ -46,7 +46,6 @@
   };
 
   services.libinput.enable = true;
-  services.picom.enable = true;
   hardware.graphics.enable = true;
 
   services.pipewire = {
@@ -63,7 +62,6 @@
   programs.firefox.enable = true;
 
   environment.systemPackages = with pkgs; [
-    alacritty
     android-tools
     apktool
     curl
@@ -75,7 +73,6 @@
     jadx
     jq
     ripgrep
-    rofi
     scrcpy
     st
     telegram-desktop
