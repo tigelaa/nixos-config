@@ -62,23 +62,16 @@
   programs.firefox.enable = true;
 
   environment.systemPackages = with pkgs; [
-    android-tools
-    apktool
     curl
     dmenu
-    fd
-    file
     gh
     git
-    jadx
-    jq
     ripgrep
-    scrcpy
     st
     telegram-desktop
     unzip
     usbutils
-    vim
+    neovim
     wget
     zip
   ];
